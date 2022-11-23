@@ -4,7 +4,9 @@ I'm not the creator of this game, but i wanted to recreate it as a training in p
 
 ## Requirement
 
-Python 3.10.6 or >
+- Python 3.10.6 or >
+- Pillow 9.3.0 or >
+- PyQt5 5.15 or >
 
 ## How to set up ?
 
