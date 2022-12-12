@@ -8,6 +8,9 @@ from PyQt5.QtGui import QPixmap
 
 
 def new_game():
+    # Retire les fichiers temporaires
+    os.remove("img/source.png")
+    os.remove("img/result.png")
     # Choisi une image dans le dossier 'img' et l'affiche dans la console
     rand_img = random.choice(os.listdir("img"))
     print(rand_img)
